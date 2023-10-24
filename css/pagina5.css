@@ -1,0 +1,90 @@
+/* Estilo general */
+/* Estilo general */
+body {
+    background-image: url('../img/libreria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* Cambia el color de fuente a blanco para todo el cuerpo */
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro y transparente */
+    border: 2px solid #e67e22; /* Borde naranja */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Aumenta la sombra para un aspecto más elegante */
+}
+
+/* Estilo de encabezados */
+h1 {
+    color: #e67e22; /* Cambia el color del título a anaranjado */
+    text-align: center;
+    margin-top: 0;
+    font-size: 2em; /* Aumenta el tamaño del título principal */
+}
+h2 {
+    color: #e67e22; /* Cambia el color del título a anaranjado */
+    text-align: center;
+    margin-top: 0;
+    font-size: 2em; /* Aumenta el tamaño del título principal */
+}
+
+/* Estilo de la imagen del autor */
+.author-image {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave a la imagen */
+}
+
+/* Estilo de la lista de libros */
+.book-list {
+    list-style: none;
+    padding: 0;
+}
+/* Estilo de cada elemento de libro */
+.book-item {
+    display: flex; /* Utiliza flexbox para la disposición de los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Espacio entre elementos (imagen a la derecha) */
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título del libro */
+.book-title {
+    color: #e67e22;
+    font-size: 1.5em;
+}
+
+/* Estilo de la imagen de la portada del libro */
+.book-cover {
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.book-list li {
+    margin-bottom: 20px;
+    padding: 15px; /* Aumenta el espacio interno y el tamaño del borde */
+    border: 1px solid #e67e22;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave a cada libro */
+}
+
+
+/* Estilo de los detalles del libro */
+.book-details {
+    color: #ffffff;
+    font-size: 1.1em; /* Aumenta el tamaño de la fuente de los detalles */
+}

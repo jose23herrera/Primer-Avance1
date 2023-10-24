@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    background-image: url('../img/libreria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    background-color: rgba(51, 51, 51, 0.7); /* Cambia el valor alpha para hacerlo más transparente */
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Nuevos estilos para centrar el contenedor más abajo */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Borde naranja */
+    border: 2px solid #e67e22;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: orange;
+    margin-bottom: 20px;
+}
+p {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.wish-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.wish-list li {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-info {
+    flex: 1;
+    
+}
+
+.actions {
+    flex-shrink: 0;
+}
+
+.check-stock,
+.buy,
+.remove {
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.check-stock:hover,
+.buy:hover,
+.remove:hover {
+    background-color: black;
+}
+/* Estilo de la imagen de la portada del libro */
+.book-cover {
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+
