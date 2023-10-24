@@ -1,0 +1,221 @@
+/* Agrega estilos personalizados aquí */
+body {
+    background-image: url('img/libreria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* Cambia el color de fuente a blanco para todo el cuerpo */
+}
+
+/* Estilo para el footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilo para el enlace de la licencia */
+footer a {
+    color: #2e83f1;
+    text-decoration: none;
+}
+
+.titulo {
+    color: white; /* Cambia "blue" al color que desees */
+}
+
+/* ... Slider ... */
+.contenedor {
+    margin: 20px auto 20px;
+    width: 60%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro y transparente */
+    border: 2px solid #e67e22; /* Borde naranja */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Aumenta la sombra para un aspecto más elegante */
+}
+
+.slider-contenedor {
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contenido-slider > img {
+    width: 100%;
+    height: 400px;
+}
+
+/* Estilos personalizados para los botones */
+.btn-custom {
+    width: 100%; /* Anchura automática basada en el contenido */
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.705); /* Fondo transparente (RGBA) */
+    color: #333; /* Color de texto oscuro */
+    font-size: 1.8em; /* Tamaño de texto */
+    margin-bottom: 10px; /* Espacio entre botones */
+    border: none; /* Elimina el borde del botón */
+}
+
+.btn-custom > p, .btn-custom > img {
+    float: left;
+}
+
+.btn-custom:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Cambia la opacidad al pasar el mouse */
+}
+
+.container {
+    margin-bottom: 120px;
+}
+
+/* Estilos personalizados para el contenedor de botones */
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura del 100% de la ventana para centrar en la pantalla */
+}
+
+/* Estilos personalizados para la imagen */
+.custom-img {
+    width: 64px; /* Ancho personalizado */
+    height: 64px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+/* libro
+
+/* Estilos personalizados para la tarjeta del libro */
+.book-card {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.book-card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.book-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: black;
+}
+
+.autor-card {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.autor-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.autor-card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.autor-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: black;
+}
+
+
+.custom-libro {
+    width: 175px; /* Ancho personalizado */
+    height: 40px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+.custom-libro1 {
+    width: 183px; /* Ancho personalizado */
+    height: 40px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+.custom-libro3 {
+    width: 193px; /* Ancho personalizado */
+    height: 40px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+.custom-img1 {
+    width: 30px; /* Ancho personalizado */
+    height: 30px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+.custom-libroo {
+    width: auto; /* Ancho personalizado */
+    height: 500px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+
+.custom-libroo5 {
+    width: 290px; /* Ancho personalizado */
+    height: 40px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+
+.custom-libroo4 {
+    width: 255px; /* Ancho personalizado */
+    height: 40px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+.custom-libroo3 {
+    width: 170px; /* Ancho personalizado */
+    height: 40px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+.custom-libroo1 {
+    width: 164px; /* Ancho personalizado */
+    height: 40px; /* Altura personalizada */
+    margin-right: 10px; /* Espacio a la derecha del botón */
+}
+
+.col-md-8 {
+    margin: 20px auto 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro y transparente */
+    border: 2px solid #e67e22; /* Borde naranja */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Aumenta la sombra para un aspecto más elegante */
+}
+
+#datos {
+    margin: 20px auto 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro y transparente */
+    border: 2px solid #e67e22; /* Borde naranja */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Aumenta la sombra para un aspecto más elegante */
+}

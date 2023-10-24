@@ -1,0 +1,107 @@
+/* Estilo para el fondo de la página con una imagen */
+body {
+    background-image: url('../img/libreria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto predeterminado */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Esto centra verticalmente en la ventana */
+    padding: 20px;
+}
+
+/* Estilo para el contenedor de producto */
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más oscuro y transparente */
+    border: 2px solid #e67e22; /* Borde naranja */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px; /* Ancho máximo para el contenedor del producto */
+    margin-bottom: 20px; /* Mayor espacio inferior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    text-align: center;
+    color: white;
+}
+
+.product-details img {
+    max-width: 150px; /* Imagen más grande */
+    max-height: 150px; /* Imagen más grande */
+    margin-bottom: 20px; /* Mayor espacio inferior */
+}
+
+.product-name {
+    font-size: 18px; /* Tamaño de fuente más grande para el nombre del producto */
+    font-weight: bold; /* Texto en negrita */
+    
+}
+
+.product-price {
+    color: #007bff; /* Color del precio */
+}
+
+.product-actions {
+    margin-top: 15px; /* Mayor espacio superior */
+}
+
+/* Estilo para los botones */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s; /* Efecto de transición para color de fondo y texto */
+}
+
+/* Estilo para el botón "Agregar" */
+.btn-add {
+    background-color: #4CAF50; /* Fondo verde para el botón "Agregar" */
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: #45a049; /* Cambio de color de fondo al pasar el mouse */
+}
+
+/* Estilo para el botón "Eliminar" */
+.btn-remove {
+    background-color: #ff5733; /* Fondo rojo para el botón "Eliminar" */
+    color: white;
+}
+
+.btn-remove:hover {
+    background-color: #e0422f; /* Cambio de color de fondo al pasar el mouse */
+}
+
+/* Estilo para el botón "Realizar Compra" */
+.btn-purchase {
+    background-color: #007bff; /* Fondo azul para el botón "Realizar Compra" */
+    color: white;
+}
+
+.btn-purchase:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el mouse */
+}
+
+.libro{
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+h4{
+    color: white;
+    text-align: center;
+}

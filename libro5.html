@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Libro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="pagina.html">Colección Libros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-cart-shopping" title="Carrito"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-heart" title="Lista de Deseos"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="img/user.png" class="user-avatar" style="width: 30px; height: 30px; border-radius: 50px;">
+                            Francisco José Herrera Martínez
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Perfil</a>
+                            <a class="dropdown-item" href="#">Preferencias</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="login.html">Cerrar Sesión</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <!-- Imagen del libro -->
+            <div class="col-md-4">
+                <img src="img/libro5.jpg" alt="Libro 5" class="custom-libroo" style="margin-top: 20px;">
+                <div id="datos">
+                    <p>Precio: $30.00</p>
+                    <p>Se hacen envíos</p>
+                </div>
+                <button class="btn btn-success">
+                    <img src="img/icon6.png" alt="imagen" class="custom-img1">Añadir al Carrito</button>
+                <button class="btn btn-primary">
+                    <img src="img/me-gusta.png" alt="imagen" class="custom-img1">Me Gusta</button>
+            </div>
+            <!-- Información del libro -->
+            <div class="col-md-8">
+                <h2>Harry Potter Y La Piedra Filosofal</h2>
+                <p>Editorial: Salamandra S.A.  </p>
+                <p>Autor: J.k Rowling</p>
+                <p>Estado: Disponible</p>
+
+                <p class="book-description">
+                    Harry Potter y la piedra filosofal es el primer volumen de la ya clásica serie de novelas
+                     fantásticas de la autora británica J.K. Rowling.
+
+«Con las manos temblorosas, Harry le dio la vuelta al sobre y vio un sell
+o de lacre púrpura con un escudo de armas: un león, un águila, un tejón y una serpiente, que rodeaban una gran letra H.»
+
+Harry Potter nunca ha oído hablar de Hogwarts hasta que empiezan a caer cartas en el felpudo del número
+ 4 de Privet Drive. Llevan la dirección escrita con tinta verde en un sobre de pergamino amarillento con
+  un sello de lacre púrpura, y sus horripilantes tíos se apresuran a confiscarlas. Más tarde, el día que Harry
+   cumple once años, Rubeus Hagrid, un hombre gigantesco cuyos ojos brillan como escarabajos negros, irrumpe con
+    una noticia extraordinaria: Harry Potter es un mago, y le han concedido una plaza en el Colegio Hogwarts de Magia 
+    y Hechicería. ¡Está a punto de comenzar una aventura increíble!
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+    </footer>
+</body>
+</html>
