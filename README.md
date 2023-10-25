@@ -16,8 +16,8 @@ Desarrollo de ejercicio en Git para la materia de DAW G05L UDB
 5. Autores: Nos muestra un listado de autores almacenados en los datos del programa.
 6. Si hacemos clic en las opciones correspondientes de los listados de Libros u Autores, nos llevará a otra página con la correspondiente información del itemm u objeto.
 
-#Trello
+# Trello
 https://trello.com/b/zTFXtELS/collecion-de-libros-daw05l
 
-#Licencias
+# Licencias
 http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1
