@@ -26,4 +26,5 @@ https://trello.com/b/zTFXtELS/collecion-de-libros-daw05l
 
 # Licencias
 ![LICENCIA](https://github.com/jose23herrera/Primer-Avance1/blob/master/img/by.png?raw=true)
+
 http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1
